@@ -1,0 +1,8 @@
+@media only screen and (max-width: 992px) {
+  .clock_wrapper {
+    justify-content: center;
+  }
+  .clock__top-content {
+    text-align: center;
+  }
+}
