@@ -36,6 +36,7 @@
 @media only screen and (max-width: 768px) {
   .filter__widget {
     margin-bottom: 40px;
+    text-align: initial;
   }
   .filter__widget select {
     padding: 7px 20px;
