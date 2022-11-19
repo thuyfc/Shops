@@ -103,15 +103,13 @@ const Header = () => {
                 <i className="ri-shopping-bag-line"></i>
                 <span className="badge">{totalQuantity}</span>
               </span>
-              <div className="profile">
+              <div
+                className="profile"
+                onMouseEnter={() => setOpens(true)}
+                onMouseLeave={() => setOpens(false)}
+              >
                 {" "}
-                <motion.img
-                  whileTap={{ scale: 1.2 }}
-                  src={userIcon}
-                  alt=""
-                  onClick={() => setOpens(!opens)}
-                />
-             
+                <motion.img whileTap={{ scale: 1.2 }} src={userIcon} alt="" />
                 {opens && (
                   <div className="profile__action">
                     {currentUser ? (

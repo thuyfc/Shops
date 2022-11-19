@@ -85,7 +85,7 @@
 .nav__icons .profile .profile__action {
   position: absolute;
   top: 98%;
-  right: -50%;
+  right: -00%;
   width: 150px;
   z-index: 10;
   display: flex;
@@ -94,7 +94,7 @@
   padding: 15px;
   background: var(--card-bg-01);
   line-height: 30px;
-
+  border-radius: 25% 10%;
   cursor: pointer;
 }
 .show__profile {
